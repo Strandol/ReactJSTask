@@ -1,11 +1,23 @@
-# React Hot Loader Minimal Boilerplate
+# Пилотный выпуск React Challenge: сортировка и поиск данных
 
-Bare minimum needed to have [React Hot Loader](https://github.com/gaearon/react-hot-loader) working with [webpack-dev-server](https://github.com/webpack/webpack-dev-server) and [Babel latest](https://babeljs.io/docs/plugins/preset-latest/) plugin
+## <a href="https://strandol.github.io/react-challenge-sort-and-search/">DEMO</a>
 
-## Docs
-See the [Migration to 3.0 guide](https://github.com/gaearon/react-hot-loader/tree/master/docs#migration-to-30) on React Hot Loader repo.
+[Статья на сайте](http://jsraccoon.ru/react-challenge-sort-and-search)
 
-## Try it out
-```
-npm run dev
-```
+[Демо приложения](http://rtivital.github.io/react-challenge-sort-and-search-solution/)
+
+Что делать:
+
+* Форкнуть этот репозиторий
+* Склонировать свой форк `git clone https://github.com/<ваш_аккаунт_на_гитхабе>/react-challenge-sort-and-search`
+* Открыть папку `cd react-challenge-sort-and-search`
+* Установить все зависимости `npm install`
+* Запустить галп `gulp`
+* Вы восхитительны и готовы к челенджу!
+
+## Таски для галпа
+
+* Дефолтный (просто `gulp`): запускает browsersync и решрешит при изменении js, css и html. Браузер должен открыть самостоятельно.
+* Деплой (`gulp deploy`): пушит всё, что находится в папке `public` в ветку `gh-pages`. В результате сайт можно показать другу
+
+## Удачи!
