@@ -1,4 +1,4 @@
-export function loadData(url) {
+exports.loadData = function(url) {
     return new Promise((resolve, reject) => {
         let xhr = new XMLHttpRequest();
         xhr.open('GET', url, true);
@@ -12,13 +12,13 @@ export function loadData(url) {
     });
 };
 
-export function onChangeHandler(event) {
+exports.onChangeHandler = function(event) {
     this.setState({
         newTaskName: event.target.value
     })
 }
 
-export function saveNewName(ev) {
+exports.saveNewName = function(ev) {
     this.setState({
         tasks: this.state.tasks.map((task) => {
             if (task.id === this.state.selectedTask.id) 
@@ -29,7 +29,7 @@ export function saveNewName(ev) {
     })
 }
 
-export function selectTask(task) {
+exports.selectTask = function(task) {
     this.setState({
         selectedTask: task,
         newTaskName: task.name
